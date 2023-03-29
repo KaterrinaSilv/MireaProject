@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MireaProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Katerina Silver</string>
+    <string name="nav_header_subtitle">https://vk.com/ksilver_art</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="browser">Browser</string>
+    <string name="data">Data</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="title1">Welcome to Mirea Project App</string>
+    <string name="text1">MireaProject – персональное облачное хранилище ваших фотографий.</string>
+    <string name="title2">Хранение данных</string>
+    <string name="text2">Приложение позволяет сократить затраты на хранение данных на вашем мобильном устройстве и обеспечить доступность данных из любой точки мира..</string>
+    <string name="title3">Безопасность</string>
+    <string name="text3">Все что вы загружаете в облако находится в безопасности.</string>
+    <string name="homeText">Облачное хранилище – это модель облачных вычислений, предусматривающая хранение данных в Интернете с помощью поставщика облачных вычислительных ресурсов, который предоставляет хранилище данных как сервис и обеспечивает управление им. Облачное хранилище предоставляется по требованию в необходимом объеме, оплачивается по факту использования и избавляет от необходимости приобретать собственную инфраструктуру для хранения данных и управлять ею.</string>
+    <string name="homeTitle">Что такое облачное хранение данных?</string>
+</resources>
