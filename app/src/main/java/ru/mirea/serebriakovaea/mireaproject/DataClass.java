@@ -53,7 +53,7 @@ public class DataClass extends AppCompatActivity {
             }
         });
 
-        slideViewPager = (ViewPager) findViewById(R.id.imageView);
+        slideViewPager = (ViewPager) findViewById(R.id.imageViewProfilePhoto);
         dotLinearLayout = (LinearLayout) findViewById(R.id.indicatorLayout);
 
         viewPageAdapter = new ViewPageAdapter(this);

@@ -24,5 +24,19 @@
             android:id="@+id/nav_dataFragment"
             android:icon="@android:drawable/ic_dialog_info"
             android:title="@string/data" />
+        <item
+            android:id="@+id/nav_activity_level"
+            android:icon="@drawable/baseline_horizontal_rule_24"
+            android:title="Level"
+            />
+        <item
+            android:id="@+id/nav_activity_photo"
+            android:icon="@drawable/baseline_camera_24"
+            android:title="Change your profile photo"/>
+        <item
+            android:id="@+id/nav_setting_activity"
+            android:icon="@drawable/baseline_mic_24"
+            android:title="Settings"/>
+
     </group>
 </menu>

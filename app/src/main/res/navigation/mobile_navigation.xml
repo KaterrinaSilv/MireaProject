@@ -32,4 +32,19 @@
         android:name="ru.mirea.serebriakovaea.mireaproject.DataClass"
         android:label="Some data about me"
         tools:layout="@layout/fragment_data" />
+    <activity
+        android:id="@+id/nav_activity_level"
+        android:name="ru.mirea.serebriakovaea.mireaproject.LevelApp"
+        android:label="Level"
+        tools:layout="@layout/activity_level"/>
+    <activity
+        android:id="@+id/nav_activity_photo"
+        android:name="ru.mirea.serebriakovaea.mireaproject.PhotoActivity"
+        android:label="Photo"
+        tools:layout="@layout/activity_photo"/>
+    <activity
+        android:id="@+id/nav_setting_activity"
+        android:name="ru.mirea.serebriakovaea.mireaproject.SettingActivity"
+        android:label="Settings"
+        tools:layout="@layout/activity_settings"/>
 </navigation>
