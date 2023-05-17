@@ -38,7 +38,7 @@ public class WorkDataForm extends AppCompatActivity {
         setContentView(R.layout.activity_work_data_form);
 
         AppDatabase db = App.getInstance().getDatabase();
-        ClientDao clientDao = db.clientDao;
+        ClientDao clientDao = db.clientDao();
 
         edit_name = findViewById(R.id.edit_name_data);
         edit_tel = findViewById(R.id.edit_telephone_data);
