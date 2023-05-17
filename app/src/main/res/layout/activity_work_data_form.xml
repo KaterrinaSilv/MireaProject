@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workdata.WorkDataForm">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/text_name_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="59dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Ваше имя"
+            android:textColor="@color/blu"
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/edit_name_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/text_telephone_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="59dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Номер телефона"
+            android:textColor="@color/blu"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/edit_telephone_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/text_email_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="59dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Почта"
+            android:textColor="@color/blu"
+            android:textSize="24sp"/>
+        <EditText
+            android:id="@+id/edit_email_data"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="100dp"
+            android:text="Сохранить"/>
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

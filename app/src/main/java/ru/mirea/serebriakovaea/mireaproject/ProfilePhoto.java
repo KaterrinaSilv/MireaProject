@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 
-public class Profile extends Activity {
+public class ProfilePhoto extends Activity {
 
     private ImageView profilePhoto;
 

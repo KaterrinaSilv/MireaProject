@@ -97,7 +97,7 @@ public class PhotoActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.d(TAG, "imageUri" + imageUri);
                 String uri = String.valueOf(imageUri);
-                Intent intent = new Intent(PhotoActivity.this, Profile.class);
+                Intent intent = new Intent(PhotoActivity.this, ProfilePhoto.class);
                 intent.putExtra("imageUri", uri);
                 startActivity(intent);
             }

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="#312782"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="59dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/text_nme"
+        app:layout_constraintTop_toBottomOf="@+id/text_title" />
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="59dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/text_age"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name" />
+
+    <EditText
+        android:id="@+id/edit_hobbie"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/text_hobbie"
+        app:layout_constraintTop_toBottomOf="@+id/edit_sex" />
+
+    <EditText
+        android:id="@+id/edit_sex"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/text_sex"
+        app:layout_constraintTop_toBottomOf="@+id/edit_age" />
+
+    <TextView
+        android:id="@+id/text_nme"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Ваше имя"
+        android:textColor="@color/blu"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/edit_name"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title" />
+
+    <TextView
+        android:id="@+id/text_sex"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Пол"
+        android:textColor="@color/blu"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/edit_sex"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_age" />
+
+    <TextView
+        android:id="@+id/text_hobbie"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Хобби"
+        android:textColor="@color/blu"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/edit_hobbie"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_sex" />
+
+    <TextView
+        android:id="@+id/text_age"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Ваш возраст"
+        android:textColor="@color/blu"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/edit_age"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_nme" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="Сохранить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

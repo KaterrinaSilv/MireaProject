@@ -47,4 +47,14 @@
         android:name="ru.mirea.serebriakovaea.mireaproject.SettingActivity"
         android:label="Settings"
         tools:layout="@layout/activity_settings"/>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.serebriakovaea.mireaproject.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_work_data"
+        android:name="ru.mirea.serebriakovaea.mireaproject.workdata.WorkDataFragment"
+        android:label="Work_With_Data"
+        tools:layout="@layout/fragment_work_data" />
 </navigation>
