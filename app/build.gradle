@@ -34,12 +34,21 @@ android {
 
 dependencies {
 
+
+    //auth
     implementation 'com.google.firebase:firebase-common-ktx:20.3.2'
     implementation 'com.google.firebase:firebase-auth:22.0.0'
+    implementation 'com.google.android.gms:play-services-ads-lite:20.6.0'
+    implementation 'com.android.volley:volley:1.2.1'
     def room_version = "2.4.2"
 
+    //database
     implementation "androidx.room:room-runtime:$room_version"
     annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    //weather app
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'

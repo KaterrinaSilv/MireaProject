@@ -29,6 +29,8 @@
             android:exported="false"/>
         <activity android:name=".SettingActivity"
             android:exported="false"/>
+        <activity android:name=".Weather"
+            android:exported="false"/>
         <activity android:name=".workdata.WorkDataForm"
             android:exported="false"/>
         <activity android:name=".MainActivity"
@@ -37,11 +39,9 @@
             android:theme="@style/Theme.MireaProject.NoActionBar"/>
         <activity
             android:name=".AuthClass"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -56,6 +56,9 @@
                 android:resource="@xml/paths"
                 />
         </provider>
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
 
     </application>
 

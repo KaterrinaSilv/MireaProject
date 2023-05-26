@@ -57,4 +57,9 @@
         android:name="ru.mirea.serebriakovaea.mireaproject.workdata.WorkDataFragment"
         android:label="Work_With_Data"
         tools:layout="@layout/fragment_work_data" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="ru.mirea.serebriakovaea.mireaproject.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news"/>
 </navigation>
