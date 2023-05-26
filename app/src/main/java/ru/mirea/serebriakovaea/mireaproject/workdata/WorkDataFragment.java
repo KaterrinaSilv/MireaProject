@@ -22,13 +22,13 @@ public class WorkDataFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Button btn_go_to_form = view.findViewById(R.id.btn_go_to_form);
-        btn_go_to_form.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.d(getClass().getSimpleName(), "on Click!");
-                Intent intent = new Intent(getActivity(), WorkDataForm.class);
-                startActivity(intent);
-            }
-        });
+//        btn_go_to_form.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Log.d(getClass().getSimpleName(), "on Click!");
+//                Intent intent = new Intent(getActivity(), WorkDataForm.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 }
