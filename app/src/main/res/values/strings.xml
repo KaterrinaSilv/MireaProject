@@ -26,5 +26,10 @@
     <string name="homeTitle">Что такое облачное хранение данных?</string>
     <string name="levelText1">Если устройство лежит на ровной поверхности, экран станет зеленым</string>
     <string name="title">Заполните информацию о себе, чтобы другие пользователь могли узнать о вас больше</string>
-
+    <string-array name="places_names">
+        <item>ВДНХ</item>
+        <item>Коломенское</item>
+        <item>Сокольники</item>
+        <item>Парк Горького</item>
+    </string-array>
 </resources>
